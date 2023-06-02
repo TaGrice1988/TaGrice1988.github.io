@@ -9,6 +9,7 @@ h1 {
       font-family: sans-serif;
       font-size: 20px;}
       .item{background: #333;
+        padding: 3rem;
       color: white;}
       .container {
         display: grid;
