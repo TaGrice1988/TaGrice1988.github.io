@@ -28,3 +28,7 @@ font-size: 1.4rem;}
         grid-template-rows: 100px 200px 200px 100px;
       margin: 2rem auto 2rem auto;
     width: 1000px;}
+
+
+    .grid{display: grid;
+    grid-template-columns: 300px 300px 300px;}
