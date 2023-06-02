@@ -57,5 +57,25 @@ margin: 0 auto;
 height: 760px;
 width: 500px;
 padding-left: 690px;
-border: 1px solid #229954;
+/* border: 1px solid #229954; */
+}
+
+
+#navbar {
+
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: #229954;
+
+
+}
+
+#navbar a{
+
+  color: 	#AAFF00;
+  text-decoration: none;
+font-size: larger;
+
+
 }
