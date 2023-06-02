@@ -2,15 +2,26 @@ h1 {
     color: greenyellow;
     text-align: center;
     }
+    
+    
     body {
       background-color:#1ABC9C ;
     }
+    
+    
     p {
       font-family: sans-serif;
       font-size: 20px;}
+      
+    
       .item{background: #333;
         padding: 3rem;
-      color: white;}
+      color: white;
+    border: 1px solid white;
+  font-weight: bold;
+font-size: 1.4rem;}
+      
+      
       .container {
         display: grid;
         grid-template-columns: 500px 500px;
