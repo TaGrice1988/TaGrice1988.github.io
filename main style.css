@@ -32,4 +32,5 @@ font-size: 1.4rem;}
 
     .grid {
       display: grid;
+      gap: 1rem;
     grid-template-columns: 1fr 1fr 1fr;}
