@@ -5,4 +5,9 @@ h1 {
     body {
       background-color:#1ABC9C ;
     }
+    p {
+      font-family: sans-serif;
+      font-size: 20px;
+      font-color: greenyellow
+    }
     
