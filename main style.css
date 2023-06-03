@@ -24,39 +24,79 @@ font-size: 1.4rem;}
       
       .container {
         display: grid;
-        gap: 15px 20px;
-        grid-template-columns: 500px 500px;
-        grid-template-rows: 100px 200px 200px 100px;
-      margin: 2rem auto 2rem auto;
-    width: 1000px;}
+        grid-template-rows: auto;
+        grid-template-columns: auto;
+        grid-template-areas: 
+        'header header'
+        'title title'
+        'info picture'
+        'skills skills'
+        'projects projects'
+        'sidebar sidebar';
+        display: grid;
+        gap: 4rem;
+        /* grid-template-columns: 500px 500px;
+        grid-template-rows: 100px 200px 200px 100px; */
+      margin: 0;}
 
-
-    .grid {
-      display: grid;
-      gap: 1rem;
-    grid-template-rows: 1fr 1fr 1fr;}
 
 
     .header{
-width: 100%;
-height: 80px;
-display: block;
-/* background-color: #229954;} */
-    }
+      grid-area: header;
+      display: inline-block;
+      position: relative;
+}
 
-.inner_header{
-width: 1000px;
-height: 100%;
-display: block;
-margin: 0 auto;
+.title{
+grid-area: title;
+
+
+}
+
+.info{
+grid-area: info;
+width: 450px;
+padding-left: 20px;
+
+}
+
+.picture{
+grid-area: picture;
+
+
+}
+
+#lotusblossom{
+height: 1010px;
+width: 1895px;
+
+}
+
+.skills{
+grid-area: skills;
+display: grid;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+grid-template-columns: 300px 300px 300px;
+gap: 2rem;
+padding-left: 465px;}
+
+.projects{
+grid-area: projects;
+
+
+}
+
+.sidebar{
+grid-area: sidebar;
 
 
 }
 
 #photo {
-height: 770px;
+height: 805px;
 width: 490px;
-padding-left: 705px;
+padding-left: 100px;
+left: 60%;
 /* border: 1px solid #229954; */
 }
 
@@ -66,7 +106,8 @@ padding-left: 705px;
   position: sticky;
   top: 0;
   overflow: hidden;
-  background-color: #229954;
+  background-color: pink;
+  border: 2px solid #229954;
 
 
 }
@@ -76,6 +117,7 @@ padding-left: 705px;
   color: 	#AAFF00;
   text-decoration: none;
 font-size: larger;
+padding: 20px;
 
 
 }
